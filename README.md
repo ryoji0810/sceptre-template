@@ -25,8 +25,8 @@ exit
 ├── README.md
 ├── config・・・CFnのテンプレートで使用する変数が書かれたyamlファイルを保存するディレクトリ
 │   ├── ap-northeast-1・・・リージョンごとに変数がかかれたyamlファイルを保存する
-│   └── config.yamlテンプレート共通の変数が書かれたyamlファイル
-├── template・・・各CFnのテンプレートを生成するPythonスクリプトが格納されているディレクトリ
+│   └── config.yaml・・・Sceptreの設定が書かれたyamlファイル
+├── templates・・・各CFnのテンプレートを生成するPythonスクリプトが格納されているディレクトリ
 │   └── base.py・・・抽象化クラスのPythonスクリプト
 ├── var・・・変数が書かれたyamlファイルを保存するディレクトリ
 │   └── sample.yaml・・・テンプレート共通の変数が書かれたyamlファイル
